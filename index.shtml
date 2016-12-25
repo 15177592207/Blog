@@ -1,0 +1,137 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Rebecca个人博客</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	<header>
+		<nav>
+		   <ul>
+		   	 <li><a href="#">博客园</a></li>
+             <li><a href="#">首页</a></li>
+             <li><a href="#">新随笔</a></li>
+             <li><a href="#">联系</a></li>
+             <li><a href="#">订阅</a></li>
+             <li><a href="#">管理</a></li>
+             <li><a href="#">java</a></li>
+             <li><a href="#">web前端</a></li>
+             <li><a href="#">Android</a></li>
+		   </ul>
+		</nav>
+	</header>
+	<div class="mainContent">
+		<aside>
+		    <div class="avatar">
+               <a href="#"><span>Rebecca Blog</span></a>
+            </div>
+            <section class="topspaceinfo">
+               <h1>联系我</h1>
+               <p>qq邮箱：1052748788@qq.com</p>
+            </section>
+            <div class="userinfo"> 
+               <p class="q-fans">常去网站</p> 
+               <p class="btns"><a href="#">博客园</a><a href="#">Github</a><a href="#">慕课网</a></p>   
+            </div>
+            <section class="newpic">
+               <h2>最近常去</h2>
+               <ul>
+                 <li><a href="#"><img src="images/01.jpg"></a></li>
+                 <li><a href="#"><img src="images/02.jpg"></a></li>
+                 <li><a href="#"><img src="images/03.jpg"></a></li>
+                 <li><a href="#"><img src="images/04.jpg"></a></li>
+                 <li><a href="#"><img src="images/05.jpg"></a></li>
+                 <li><a href="#"><img src="images/06.jpg"></a></li>
+                 <li><a href="#"><img src="images/07.jpg"></a></li>
+                 <li><a href="#"><img src="images/08.jpg"></a></li>
+               </ul>
+            </section>
+            <section class="taglist">
+               <h2>常用链接</h2>
+               <ul>
+                 <li><a href="#">我的随笔</a>
+                 </li>
+                 <li><a href="#"> 我的评论</a></li>
+                 <li><a href="#">我的参与 </a></li>
+                 <li><a href="#">最新评论</a>
+                 </li>
+                 <li><a href="#">我的标签</a>
+                 </li>
+               </ul>
+            </section>
+		</aside>
+		<div class="blogitem">
+			<article>
+				<h2 class="title"><a href="#">谈谈敏捷开发</a></h2>
+				<ul class="text">
+				<p>我对敏捷开发是源于10多年前看了一本关于迭代开发的书，从而对迭代开发有了一些兴趣。从那时开始有了迭代开发的概念。随着项目经验的增加迭代的重要性也越发觉得明显。随后进入了提倡敏捷开发的公司，被迫式的接触了许多“敏捷开发”，随着项目经历越来越多，慢慢的就开始有了更新的认识和想法。</p>
+				<p>但是在接触敏捷开发这个体系之前，自己有机会做一个项目，那个时候我开始将自己认为更有利于项目的管理工作做了一些应用，那个阶段我的主要做法是：
+				</p>
+				<p>1、项目中开始划分更短的制品交互周期，而不是以前那样等待产品开发完毕后发布各种测试版本。<br/>
+                   2、更充分与市场人员交流，在市场人员进行需求交底时，让更多的甚至全体成员参与会议，了解产 品的原始业务及需求。并且在过程中有问题也及时的解答及沟通。<br/>
+                   3、加强沟通力度，开发测试都在一起每天都会开个小会，通报每日的工作成果，将自己的问题说出来。<br/>
+                   4、不同以往的发布频率，测试从项目开始便要切入到产品生产过程，而不是等到最后所有功能都完成后。从而大大减少变动对计划的影响。<br/></p>
+                <p class="textimg"><img src="images/text2.jpg"></p>
+                <p> 在做这些工作的时候我并不知道敏捷开发这个东西，直到在2010年进入一个公司非常提倡敏捷开发，已经有了迭代周期、backlog、站立会议、周例会等等，在这个团队中对开发过程有各种规章要求，完全是制度化的，这在我加入的初期非常的不适应。事实上回头想想，那种方式已经变的不敏捷了，完全是一种教条式的应用。</p>
+                <p>后来自己有机会回到了老东家，开始自己带团队，很巧老东家被收购后开始推广敏捷开发，只不过因为不是总部，所以这次没有范本，完全由我自己来组织及控制。很高兴这个小团队几个月下来，个人觉得比较成功，当然后面也得到了公司的认可。</p>
+                <p>下面就敏捷开发分享一些应该着重注意的点，解决这些问题我想对任何开发团队都会有很大的帮助。</p>
+                </ul>
+                <div class="textfoot">
+                <a href="#">Rebecca</a>
+                <a href="#"> github</a>
+                <a href="#"> 慕课网</a>
+                </div>
+			</article>
+			<article>
+			    <h2 class="title"><a href="#">需求在开发中的重要性</a></h2>
+                <ul class="text">
+                  <p> 大量的开发过程告诉我，需求在软件开发过程中是极其重要的。传统的开发强调初期的需求调研及需要分析，这个过程对于一些正规的团队会产生大量的文档，而后交由开发展开产品生产。</p>
+                  <p>然而，事实却不是想象这么简单，无数的例子说明了一点，仅仅在需求调研过程中了解到的需求是无法保证的。数不清的例子告诉我们，需求是会变的，变的原因很多。在极端的情况下，有些客户签字的需求在开发完后，有需要变更也很正常。</p>
+                  <p>所以需求是影响软件开发的第一重要因素，需求来源于业务，我们开发的产品不就是因为这些业务才去做的吗？如何需求都无法把握好，还谈什么开发出好用的产品？然而如何做好需求呢？我想首先要确立需求的地位，然后只有通过不断的沟通、尝试、反馈向真实需求迈进。</p>
+                  <p class="textimg"><img src="images/text1.jpg"></p>
+                  <p>不管怎么样开发过程中主要还是靠人的，而且软件开发是个复杂的团体工程，一个小些的产品也会涉及到各类人：客户、业务分析、管理人员、程序员、测试员等等。这么多人在一起做事情，有一方没有处理好结果肯定就会有问题。</p>
+                  <p>有这样一个例子：客户提出了一个会员管理功能需求，需求人员了解后组织了解决方案，于是交付了开发实现。而经过二个月无尽的黑夜之后交付，需求一看有个模块做的有偏差，但是已经来不及修改了。交给客户看后，发现这不是他们要的会员管理功能相差较大，另外在功能开发的这一段时间，客户又有了新想法，要对原先需求做调整。</p>
+                </ul>
+                <div class="textfoot">
+                  <a href="#">Rebecca</a><a href="#">mini188</a>
+                  <a href="#">慕课网</a>
+                </div>
+            </article>
+            <div class="pages"><span>1</span><a href="#" hidefocus="">2</a><a href="#" hidefocus="">3</a><a href="#" class="next">下一页&gt;&gt;</a></div>
+            </div>
+			
+		</div>
+	</div>
+	<footer>
+		<div class="footavatar">
+        <img src="images/github.jpeg" class="footphoto">
+        <ul class="footinfo">
+          <p class="fname"><a href="/dancesmile" >Rebecca</a>  </p>
+          <p class="finfo"> Rebecca</p>
+          <p>Rebecca</p></ul>
+        </div>
+        <section class="visitor">
+        <h2>访问者</h2>
+        <ul>
+           <li><a href="#"><img src="images/s0.jpg"></a></li>
+           <li><a href="#"><img src="images/s1.jpg"></a></li>
+           <li><a href="#"><img src="images/s2.jpg"></a></li>
+           <li><a href="#"><img src="images/s3.jpg"></a></li>
+           <li><a href="#"><img src="images/s5.jpg"></a></li>
+           <li><a href="#"><img src="images/s6.jpg"></a></li>
+           <li><a href="#"><img src="images/s7.jpg"></a></li>
+           <li><a href="#"><img src="images/s8.jpg"></a></li>
+           </ul>
+        </section>
+        <div class="Copyright">
+           <ul>
+           <a href="#">Github</a><a href="#">博客园</a><a href="#">慕课网 </a>
+           <a href="#">极客网</a>
+           </ul>
+           <p>深圳职业技术学院柳园C栋</p>
+        </div>
+	</footer>
+</body>
